@@ -1,11 +1,13 @@
 import CallFun from "./CallFun";
 import Container from "./Container";
+import StateClass from "./StateClass";
+import StateFun from "./StateFun";
 import WithoutJSX from "./WithoutJSX";
 
 function App() {
   return (
     <div>
-      <CallFun></CallFun>
+    <StateClass></StateClass>
     </div>
   );
 }
