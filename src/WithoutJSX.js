@@ -9,7 +9,7 @@ function WithoutJSX()
     //  <div>
     //     <h1>Hello World</h1>
     //  </div> 
-    React.createElement("div",null,React.createElement("h1",null,"Hwloo World"))
+React.createElement("div",null,React.createElement("h1",null,"Hwloo World"))
     )
 }
 export default WithoutJSX
