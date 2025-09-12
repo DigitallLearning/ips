@@ -1,13 +1,8 @@
-import CallFun from "./CallFun";
-import Container from "./Container";
-import StateClass from "./StateClass";
-import StateFun from "./StateFun";
-import WithoutJSX from "./WithoutJSX";
-
+import PropFun1 from "./PropFun1";
 function App() {
   return (
     <div>
-    <StateClass></StateClass>
+    <PropFun1></PropFun1>
     </div>
   );
 }
