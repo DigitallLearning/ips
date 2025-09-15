@@ -1,4 +1,5 @@
 import Condition from "./Condition";
+import Effect from "./Effect";
 import Form from "./Form";
 import Hook from "./Hook";
 import Image from "./Image";
@@ -9,7 +10,7 @@ import PropFun1 from "./PropFun1";
 function App() {
   return (
     <div>
- <Hook></Hook>
+        <Effect></Effect>
     </div>
   );
 }
