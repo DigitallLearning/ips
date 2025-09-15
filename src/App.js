@@ -1,12 +1,9 @@
-import Boot from "./Boot";
-import List from "./List";
-import Pure from "./Pure";
-import Style from "./Style";
+import HOC from "./HOC";
 
 function App() {
   return (
     <div>
-    <Pure></Pure>
+    <HOC></HOC>
     </div>
   );
 }
