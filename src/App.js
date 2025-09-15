@@ -1,10 +1,11 @@
 import Boot from "./Boot";
+import List from "./List";
 import Style from "./Style";
 
 function App() {
   return (
     <div>
-       <Boot></Boot>
+     <List></List>
     </div>
   );
 }
