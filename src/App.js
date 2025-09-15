@@ -1,9 +1,10 @@
+import Boot from "./Boot";
 import Style from "./Style";
 
 function App() {
   return (
     <div>
-        <Style></Style>
+       <Boot></Boot>
     </div>
   );
 }
