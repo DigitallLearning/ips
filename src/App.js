@@ -1,5 +1,6 @@
 import Condition from "./Condition";
 import Form from "./Form";
+import Hook from "./Hook";
 import Image from "./Image";
 import Input from "./Input";
 import Mount from "./Mount";
@@ -8,7 +9,7 @@ import PropFun1 from "./PropFun1";
 function App() {
   return (
     <div>
- <Mount></Mount>
+ <Hook></Hook>
     </div>
   );
 }
