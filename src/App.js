@@ -1,13 +1,8 @@
-import UncontrolledForm from "./UncontrolledForm";
-import ControlledCmp from "./ControlledCmp";
-import HOC from "./HOC";
-import UncontrolledClass from "./UncontrolledClass";
-import UncontrolledFun from "./UncontrolledFun";
-
+import UseMemo1 from "./UseMemo1";
 function App() {
   return (
     <div>
-     <UncontrolledForm></UncontrolledForm>
+      <UseMemo1></UseMemo1> 
     </div>
   );
 }
