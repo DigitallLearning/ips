@@ -1,8 +1,9 @@
+import Routing from "./Routing";
 import UseMemo1 from "./UseMemo1";
 function App() {
   return (
     <div>
-      <UseMemo1></UseMemo1> 
+     <Routing></Routing> 
     </div>
   );
 }
