@@ -1,5 +1,4 @@
 import { useState } from "react"
-
 function ControlledCmp()
 {
     const [uname,setName]=useState()
