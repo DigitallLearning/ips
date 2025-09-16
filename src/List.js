@@ -14,14 +14,16 @@ function List()
                     <td>Rollno</td>
                     <td>Name</td>
                     <td>Marks</td>
+                    
                 </tr>
                 {
                     arr.map((item)=>
                         item.marks>=60?
                         <tr>
                             <td>{item.rollno}</td>
-                             <td>{item.name}</td>
-                               <td>{item.marks}</td>
+                            <td>{item.name}</td>
+                            <td>{item.marks}</td>
+                            
                         </tr>:null
                     )
                 }
