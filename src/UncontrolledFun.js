@@ -1,9 +1,8 @@
 import { useRef } from "react"
-
 function UncontrolledFun()
 {
     const inputref=useRef()
-      hello()
+     function hello()
         {
               inputref.current.value="Hello World";
               //console.log(inputref.current.value)
