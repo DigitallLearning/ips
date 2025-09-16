@@ -1,9 +1,10 @@
+import ControlledCmp from "./ControlledCmp";
 import HOC from "./HOC";
 
 function App() {
   return (
     <div>
-    <HOC></HOC>
+   <ControlledCmp></ControlledCmp>
     </div>
   );
 }
